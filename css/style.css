@@ -57,6 +57,7 @@ ul{
 .iconList{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .iconList li{
     padding: 0 10px;
@@ -77,4 +78,49 @@ ul{
 }
 .navbar-nav li a{
     font-size: 20px;
+}
+
+.container_ul{
+    background-color: #F2F2F5;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+.list2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.list2 li button , select{
+    background-color: white;
+    border-radius: 300px;
+    padding: 6px;
+    border-color: white;
+    transition: 0.2s;
+    outline: none;
+}
+.list2 li button:hover{
+    border-color: gold;
+}
+.list2 li select:hover{
+    border-color: gold;
+}
+.list2 li .active{
+    background-color: gold;
+}
+
+.row .card{
+    padding: 0;
+    border: none;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.card img{
+    width: 250px;
+    height: 400px;
+}
+
+.card a{
+    width: 60%;
+    margin-top: 10px;
 }
