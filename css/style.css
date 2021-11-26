@@ -124,3 +124,10 @@ ul{
     width: 60%;
     margin-top: 10px;
 }
+
+.card h4{
+    transition: 1s;
+}
+.card h4:hover{
+    color: red;
+}
