@@ -36,6 +36,11 @@ ul{
     display: flex;
     justify-content: space-between;
 }
+@media screen and (max-width:700px) {
+    .list{
+        display: none;
+    }
+}
 .list li a{
     color: white;
     font-size: 20px;
@@ -58,6 +63,30 @@ ul{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+@media screen and (max-width:700px) {
+    .iconList{
+        display: none;
+    }
+    .burger_menu{
+        display: block;
+        font-size: 20px;
+        color: white;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+        align-items: center;
+    }
+    .logo{
+        width: 8%;
+        height: 5vh;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%;
+    }
 }
 .iconList li{
     padding: 0 10px;
@@ -130,4 +159,174 @@ ul{
 }
 .card h4:hover{
     color: red;
+}
+
+
+.slider{
+    background-color: brown;
+}    
+
+
+
+.container_ul{
+    background-color: #F2F2F5;
+    padding: 1px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list li button , select{
+    background-color: white;
+    border-radius: 300px;
+    padding: 6px;
+    border-color: white;
+    transition: 0.2s;
+    outline: none;
+}
+.list li button:hover{
+    border-color: gold;
+}
+.list li select:hover{
+    border-color: gold;
+}
+.list li .active{
+    background-color: gold;
+}
+
+.row .card{
+    padding: 0;
+    border: none;
+    margin-top: 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+.card img{
+    width: 170px;
+    height: 250px;
+    display: block;
+    transition: 0.5s;
+}
+
+.card a{
+    width: 60%;
+    margin-top: 10px;
+}
+
+.row_h1{
+    padding: 0 8%;
+}
+
+.row_h1 button{
+    margin-left: auto;
+    border: none;
+    background-color: white;
+}
+
+.card h5{
+    transition: 1s;
+}
+
+.card h5:hover{
+    color: red;
+}
+
+.bottom_container{
+    display: flex;
+    background-color: #660205;
+    padding: 15px 5%;
+    flex-wrap: wrap;
+}
+.bottom_img{
+    width: 150px;
+    height: 60px;
+}
+.img_right{
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+
+
+.footer_list{
+    display: flex;
+    background-color: hsla(0, 67%, 12%, 0.993);
+    padding-bottom: 15px;
+}
+
+.right_footer{
+    margin-left: 50%;
+}
+.right_footer ul li{
+    color: white;
+}
+
+.bottom_list li button{
+    border: none;
+    background-color: white;
+    padding: 10px;
+    color: black;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 4%;
+}
+.bottom_list{
+    margin-top: 50px;
+}
+
+.right_footer ul li p{
+    color: gold;
+}
+.gold_h4{
+    color: gold;
+}
+
+@media screen and (max-width:865px) {
+    .bottom_list li button{
+        display: none;
+    }
+}
+
+
+
+.left_list li{
+    padding: 5px ;
+}
+.left_list li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: normal;
+}
+.list_menu{
+    margin-left: -30px;
+}
+.list_menu li a{
+    color: gold;
+    text-decoration: none;
+    font-size: 17px;
+    transition: .6s;
+}
+.list_menu li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.iconList_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.iconList_bottom li{
+    padding: 0 10px;
+}
+.iconList_bottom li a{
+    font-size: 25px;
+    color: white;
+    background-color: rgba(230, 220, 220, 0.6);
+    border-radius: 25px;
+    padding: 5px;
+    transition: .5s;
+}
+.iconList_bottom li a:hover{
+    color: gold;
 }
